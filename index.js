@@ -33,8 +33,7 @@ app.post("/webhook", (req, res) => {
     enviarMail(peticion1, peticion2, peticion3, peticion4, peticion5);
     
 });
-  
-//token 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
+ 
 function enviarMail(peticion1, peticion2, peticion3, peticion4, peticion5 ){
 
     const mensaje = peticion1 + '<br>' + peticion2 + '<br>' + peticion3 + '<br>' + peticion4 + '<br>' + peticion5
